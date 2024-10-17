@@ -1,0 +1,512 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    top:0px;
+    margin: 0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navi{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    position: sticky;
+}
+
+.free{
+    background-color:#C6E6EA;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.cmpname{
+    font-size: 20px;
+}
+
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.list li{
+    margin: 8px;
+}
+
+.main-icons{
+    margin-left: 5px;
+}
+
+.main-icons i{
+    margin: 3px;
+    cursor: pointer;
+}
+
+.hero{
+    width: 100%;
+    background-color: #F2F3F7;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slogan{
+    font-size: 28px;
+}
+
+.shp-btn{
+    background-color: olive;
+    color: white;
+    padding: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border-style: none;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.imgrad{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.our-services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.color1 {
+    color: red;
+}
+.color2 {
+   color:black;
+}
+.service-cards{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+
+.service-img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+.service-cards div{
+    text-align: center;
+}
+
+
+.main-tab{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main-img1{
+    background: url('Protein\ Supplement\ Banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 460px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.main-img2{
+    background: url('Immunity\ Boosters\ Banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 460px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.main-tab-cont{
+    margin-top:35px;
+    margin-left: 20px;
+}
+
+.price,.pslogan{
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.pname{
+    font-size: 19px;
+    margin-bottom: 6px;
+}
+
+.p-btn{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.arrivals{
+    margin-top: 50px;
+}
+
+
+.new-arrivals{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.arrivals-display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrival-cards{
+    margin: 10px;
+    width: 280px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card1{
+    background: url('Humidifying\ Unit\ for\ Home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 280px;
+    border-radius:6px;
+}
+
+.card2{
+    background: url('Essential\ Oils\ Set.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 280px;
+    border-radius:6px;   
+}
+
+.card3{
+    background: url('Blood\ Pressure\ Monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 280px;
+    border-radius:6px;   
+}
+
+.card4{
+    background: url('Nails\ and\ Hair\ Complex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 280px;
+    border-radius:6px;   
+}
+
+.card5{
+    background: url('Electric\ Toothbrush\ Set\ Black.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 280px;
+    border-radius:6px;   
+}
+
+.card6{
+    background: url('Hatch\ Baby\ Rest\ Night\ Light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 280px;
+    border-radius:6px;   
+}
+
+.wishlist{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.description{
+    text-align: center;
+}
+
+
+.description p,.description h4{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.wishlist i{
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.sale{
+    margin-top: 40px;
+}
+
+
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.salescard{
+    width: 280px;
+    height: 280px;
+}
+
+.saleimg{
+    background: url('Immunity\ Boosters\ Banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 460px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.on-sale{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.deals-section{
+    margin-top: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    width: 160px;
+    text-align: center;
+}
+
+.count-down{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.offer{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.footer{
+    background-color: #ece3e3;
+    margin-top: 30px;
+    height: auto;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.f-sec{
+    width: 200px;
+    height: auto;
+}
+
+.footer-title{
+    margin: 5px;
+    margin-bottom: 14px;
+}
+
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-media i{
+    margin: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.our-mission{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.our-mission p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.navigation-list{
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+
+.navigation-list li{
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: orangered;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+.arrow p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    width: 100px;
+    height: 1px;
+    background-color: rgb(43, 42, 42);
+}
+
+@media screen and (max-width:600px){
+    .services{
+        display: none;
+    }
+    .navbar{
+        width: 80%;
+    }
+    .cmpname{
+        margin-left: 60px;
+    }
+    .hero{
+        height: auto;
+    }
+    .us{
+        margin-top: 30px;
+    }
+    .imgrad{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .main-tab-cont{
+        margin-left: 8px;
+    }
+
+    .price,.pslogan{
+        font-size: 13px;
+    }
+    .pname{
+        font-size: 16px;
+    }
+
+    .p-btn{
+        margin-top: 7px;
+    }
+
+    .p-btn{
+        background-color: white;
+        color: black;
+        padding: 10px;
+    }
+
+    .saleimg{
+        width: 340px;
+    }
+
+    .f-sec{
+        margin-bottom: 50px;
+    }
+}

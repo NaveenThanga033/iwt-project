@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    top:0px;
+    margin: 0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navi{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    position: sticky;
+}
+
+.free{
+    background-color:#C6E6EA;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.cmpname{
+    font-size: 20px;
+}
+
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.list li{
+    margin: 8px;
+}
+
+.main-icons{
+    margin-left: 5px;
+}
+
+.main-icons i{
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #C6E6EA;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-title {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+
+.footer{
+    background-color: #ece3e3;
+    margin-top: 30px;
+    height: auto;
+    margin-bottom: 0px;
+    width: 100%;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.f-sec{
+    width: 200px;
+    height: auto;
+}
+
+.footer-title{
+    margin: 5px;
+    margin-bottom: 14px;
+}
+
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-media i{
+    margin: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.our-mission{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.our-mission p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.navigation-list{
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+
+.navigation-list li{
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: orangered;
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.arrow:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.arrow p{
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+}
+
+hr{
+    width: 100px;
+    height: 1px;
+    background-color: rgb(43, 42, 42);
+}
+
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .services {
+        display: none;
+    }
+    .navbar {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.wishlist-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.wishlist-text {
+    margin-left: 5px; /* Add space between the icon and text */
+    color: #74C0FC; /* Change to your desired text color */
+    font-weight: bold; /* Optional styling */
+}

@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    top:0px;
+    margin: 0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+.feedback{
+    background-color:lightskyblue;
+    border:none;
+    padding:10px 10px 10px 10px;
+    border-radius:6px;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navi{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    position: sticky;
+}
+
+.free{
+    background-color:#C6E6EA;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.cmpname{
+    font-size: 20px;
+}
+
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.list li{
+    margin: 8px;
+}
+
+.main-icons{
+    margin-left: 5px;
+}
+
+.main-icons i{
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p strong {
+    font-weight: 600;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #007BFF;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 15px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services {
+        display: none;
+    }
+    .navbar {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
